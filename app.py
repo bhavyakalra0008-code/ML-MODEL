@@ -338,6 +338,6 @@ with st.expander("📊 Dataset Analytics & Profile Insights", expanded=False):
     st.bar_chart(music_gender)
     
     st.markdown("#### Raw Dataset Table")
-    st.dataframe(df, use_container_width=True)
+    st.dataframe(df, width="stretch")
 
 st.markdown('<div class="footer">AI Gender Predictor App • Running Locally on Streamlit</div>', unsafe_allow_html=True)
